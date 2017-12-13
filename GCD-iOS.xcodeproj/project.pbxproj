@@ -15,6 +15,11 @@
 		0B113B201FDFC81100B25E77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B1F1FDFC81100B25E77 /* main.m */; };
 		0B113B2A1FDFC81100B25E77 /* GCD_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B291FDFC81100B25E77 /* GCD_iOSTests.m */; };
 		0B113B351FDFC81100B25E77 /* GCD_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B341FDFC81100B25E77 /* GCD_iOSUITests.m */; };
+		0B113B441FDFF37E00B25E77 /* ShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B431FDFF37E00B25E77 /* ShareManager.m */; };
+		0B113B471FE0C4DC00B25E77 /* NSTheadDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B461FE0C4DC00B25E77 /* NSTheadDemo.m */; };
+		0B113B4A1FE0C64600B25E77 /* GCDDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B491FE0C64600B25E77 /* GCDDemo.m */; };
+		0B113B4D1FE0D14B00B25E77 /* NSOperationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B4C1FE0D14B00B25E77 /* NSOperationDemo.m */; };
+		0B113B501FE0FE0400B25E77 /* RunLoopDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B4F1FE0FE0400B25E77 /* RunLoopDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		0B113B301FDFC81100B25E77 /* GCD-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GCD-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B113B341FDFC81100B25E77 /* GCD_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_iOSUITests.m; sourceTree = "<group>"; };
 		0B113B361FDFC81100B25E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B113B421FDFF37E00B25E77 /* ShareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareManager.h; sourceTree = "<group>"; };
+		0B113B431FDFF37E00B25E77 /* ShareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareManager.m; sourceTree = "<group>"; };
+		0B113B451FE0C4DC00B25E77 /* NSTheadDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTheadDemo.h; sourceTree = "<group>"; };
+		0B113B461FE0C4DC00B25E77 /* NSTheadDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTheadDemo.m; sourceTree = "<group>"; };
+		0B113B481FE0C64600B25E77 /* GCDDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDDemo.h; sourceTree = "<group>"; };
+		0B113B491FE0C64600B25E77 /* GCDDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDemo.m; sourceTree = "<group>"; };
+		0B113B4B1FE0D14B00B25E77 /* NSOperationDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationDemo.h; sourceTree = "<group>"; };
+		0B113B4C1FE0D14B00B25E77 /* NSOperationDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationDemo.m; sourceTree = "<group>"; };
+		0B113B4E1FE0FE0400B25E77 /* RunLoopDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopDemo.h; sourceTree = "<group>"; };
+		0B113B4F1FE0FE0400B25E77 /* RunLoopDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +125,16 @@
 				0B113B1B1FDFC81100B25E77 /* LaunchScreen.storyboard */,
 				0B113B1E1FDFC81100B25E77 /* Info.plist */,
 				0B113B1F1FDFC81100B25E77 /* main.m */,
+				0B113B421FDFF37E00B25E77 /* ShareManager.h */,
+				0B113B431FDFF37E00B25E77 /* ShareManager.m */,
+				0B113B451FE0C4DC00B25E77 /* NSTheadDemo.h */,
+				0B113B461FE0C4DC00B25E77 /* NSTheadDemo.m */,
+				0B113B481FE0C64600B25E77 /* GCDDemo.h */,
+				0B113B491FE0C64600B25E77 /* GCDDemo.m */,
+				0B113B4B1FE0D14B00B25E77 /* NSOperationDemo.h */,
+				0B113B4C1FE0D14B00B25E77 /* NSOperationDemo.m */,
+				0B113B4E1FE0FE0400B25E77 /* RunLoopDemo.h */,
+				0B113B4F1FE0FE0400B25E77 /* RunLoopDemo.m */,
 			);
 			path = "GCD-iOS";
 			sourceTree = "<group>";
@@ -267,7 +292,12 @@
 			files = (
 				0B113B151FDFC81100B25E77 /* ViewController.m in Sources */,
 				0B113B201FDFC81100B25E77 /* main.m in Sources */,
+				0B113B471FE0C4DC00B25E77 /* NSTheadDemo.m in Sources */,
+				0B113B4A1FE0C64600B25E77 /* GCDDemo.m in Sources */,
+				0B113B501FE0FE0400B25E77 /* RunLoopDemo.m in Sources */,
 				0B113B121FDFC81100B25E77 /* AppDelegate.m in Sources */,
+				0B113B441FDFF37E00B25E77 /* ShareManager.m in Sources */,
+				0B113B4D1FE0D14B00B25E77 /* NSOperationDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
